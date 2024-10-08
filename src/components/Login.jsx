@@ -26,7 +26,7 @@ const Login = () => {
 
             if (response.ok) {
                 alert(data.message); // Display success message from server
-                window.location.href = "https://mmbackend-zv50.onrender.com/";
+                window.location.href = "https://mmfrontend-97am.onrender.com/";
                 //set userID in local storage
                 localStorage.setItem("userID", data.user._id);
                 console.log(data);

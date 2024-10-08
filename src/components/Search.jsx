@@ -11,7 +11,7 @@ const Search = () => {
     // check to see if userID is in local storage
     if (!userID) {
       // if userID is not in local storage, redirect to login page
-      window.location.replace('https://mmbackend-zv50.onrender.com/login');
+      window.location.replace('https://mmfrontend-97am.onrender.com/login');
     }
   }, [userID]); // Add dependency to ensure useEffect runs only when userID changes
 

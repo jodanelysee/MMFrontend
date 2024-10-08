@@ -10,7 +10,7 @@ const Dashboard = () => {
         const userID = localStorage.getItem('userID');
         if (!userID) {
           // Handle case where userID is not found in localStorage
-          window.location.replace('https://mmbackend-zv50.onrender.com/login');
+          window.location.replace('https://mmfrontend-97am.onrender.com/login');
         }
       });
 

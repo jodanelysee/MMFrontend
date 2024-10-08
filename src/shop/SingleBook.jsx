@@ -11,7 +11,7 @@ const {_id, title, image_url, author, genre, book_description, price} = useLoade
         const userID = localStorage.getItem('userID');
         if (!userID) {
           // if userID is in local storage, redirect to login page
-          window.location.replace('https://mmbackend-zv50.onrender.com/login');
+          window.location.replace('https://mmfrontend-97am.onrender.com/login');
         }
       });
 

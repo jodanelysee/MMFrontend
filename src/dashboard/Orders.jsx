@@ -7,7 +7,7 @@ const Orders = () => {
   useEffect(() => {
     const userID = localStorage.getItem('userID');
     if (!userID) {
-      window.location.replace('https://mmbackend-zv50.onrender.com/login');
+      window.location.replace('https://mmfrontend-97am.onrender.com/login');
     } else {
       fetch(`https://mmbackend-zv50.onrender.com/all-orders?userID=${userID}`)
         .then(res => res.json())

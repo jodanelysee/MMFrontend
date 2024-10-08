@@ -7,13 +7,13 @@ import dragonball from '../assets/dragonball.png'
 export const SideBar = () => {
     const handleLogoClick = (event) => {
         event.preventDefault();
-        window.location.href = "https://mmbackend-zv50.onrender.com/"; // Redirect to homepage
+        window.location.href = "https://mmfrontend-97am.onrender.com/"; // Redirect to homepage
       };
 
       const handleLogout = (event) => {
         event.preventDefault();
         localStorage.removeItem("userID");
-        window.location.href = "https://mmbackend-zv50.onrender.com/login";
+        window.location.href = "https://mmfrontend-97am.onrender.com/login";
       }
       
 
@@ -71,7 +71,7 @@ export const SideBar = () => {
             </p>
           </Sidebar.Item>
           <Sidebar.Item 
-          href="https://mmbackend-zv50.onrender.com/cart" 
+          href="https://mmfrontend-97am.onrender.comcart" 
           icon={HiArrowSmRight}>
             <p>
             View Cart
@@ -85,7 +85,7 @@ export const SideBar = () => {
             </p>
           </Sidebar.Item>
           <Sidebar.Item 
-          href="https://mmbackend-zv50.onrender.com/" 
+          href="https://mmfrontend-97am.onrender.com" 
           icon={HiArrowSmRight}>
             <p>
             Home Page

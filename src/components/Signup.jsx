@@ -39,7 +39,7 @@ const Signup = () => {
                 //console.log(data)
                 alert("User Signed Up Successfully");
                 // bring to login page after successful sign up
-                window.location.href = "https://mmbackend-zv50.onrender.com/login";
+                window.location.href = "https://mmfrontend-97am.onrender.com/login";
                 form.reset();
             });
     };
